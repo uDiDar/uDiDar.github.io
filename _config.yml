@@ -4,11 +4,11 @@
 
 # Site
 title: Hexo
-subtitle: ''
-description: ''
-keywords:
+subtitle: subtitle
+description: description
+keywords: keywords
 author: John Doe
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
@@ -68,6 +68,7 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  Apple开发: apple-dev
 tag_map:
 
 # Metadata elements
@@ -103,5 +104,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://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@github.com/uDiDar/uDiDar.github.io.git
+  repository: https://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@github.com/uDiDar/uDiDar.github.io.git
   branch: main
